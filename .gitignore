@@ -1,0 +1,15 @@
+certbot-renew.ps1
+certbot/conf/accounts/acme-v02.api.letsencrypt.org/directory/1e3aaac6d770e3ab64021822f050ca50/meta.json
+certbot/conf/accounts/acme-v02.api.letsencrypt.org/directory/1e3aaac6d770e3ab64021822f050ca50/private_key.json
+certbot/conf/accounts/acme-v02.api.letsencrypt.org/directory/1e3aaac6d770e3ab64021822f050ca50/regr.json
+certbot/conf/archive/kiberone.duckdns.org/cert1.pem
+certbot/conf/archive/kiberone.duckdns.org/chain1.pem
+certbot/conf/archive/kiberone.duckdns.org/fullchain1.pem
+certbot/conf/archive/kiberone.duckdns.org/privkey1.pem
+certbot/conf/live/README
+certbot/conf/live/kiberone.duckdns.org/cert.pem
+certbot/conf/live/kiberone.duckdns.org/chain.pem
+certbot/conf/live/kiberone.duckdns.org/fullchain.pem
+certbot/conf/live/kiberone.duckdns.org/privkey.pem
+certbot/conf/live/kiberone.duckdns.org/README
+certbot/conf/renewal/kiberone.duckdns.org.conf

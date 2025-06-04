@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Проекты</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --primary-color: #4a6fa5;
+            --secondary-color: #6b8cae;
+            --accent-color: #ff7e5f;
+            --light-color: #f8f9fa;
+            --dark-color: #343a40;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 2rem;
+            color: var(--dark-color);
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 3rem;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            color: var(--primary-color);
+            background: linear-gradient(to right, var(--primary-color), var(--accent-color));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        p.subtitle {
+            font-size: 1.1rem;
+            color: var(--secondary-color);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 1.5rem;
+            width: 100%;
+            max-width: 1200px;
+        }
+
+        .project-card {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+        }
+
+        .project-image {
+            height: 160px;
+            background-color: var(--primary-color);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 2.5rem;
+        }
+
+        .project-content {
+            padding: 1.5rem;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .project-title {
+            font-size: 1.3rem;
+            margin-bottom: 0.5rem;
+            color: var(--primary-color);
+        }
+
+        .project-description {
+            color: #666;
+            margin-bottom: 1rem;
+            flex-grow: 1;
+        }
+
+        .project-link {
+            display: inline-block;
+            padding: 0.6rem 1.2rem;
+            background: linear-gradient(to right, var(--primary-color), var(--accent-color));
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: 500;
+            text-align: center;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .project-link:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            margin-top: 3rem;
+            text-align: center;
+            color: var(--secondary-color);
+            font-size: 0.9rem;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            margin-top: 1rem;
+        }
+
+        .social-links a {
+            color: var(--secondary-color);
+            font-size: 1.2rem;
+            transition: color 0.3s ease;
+        }
+
+        .social-links a:hover {
+            color: var(--accent-color);
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .projects-grid {
+                grid-template-columns: 1fr;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Проекты</h1>
+        <p class="subtitle">Здесь собраны ссылки на сайты</p>
+    </header>
+
+    <main class="projects-grid">
+        <!-- Проект 1 -->
+        <div class="project-card">
+            <div class="project-image" style="background-color: #4a6fa5;">
+                <i class="fas fa-shopping-cart"></i>
+            </div>
+            <div class="project-content">
+                <h3 class="project-title">Сайт Дмитрия</h3>
+                <a href="KidsSite/Junior  Ваулин/index.html" class="project-link" target="_blank">Посетить сайт</a>
+            </div>
+        </div>
+
+        <!-- Проект 2 -->
+        <div class="project-card">
+            <div class="project-image" style="background-color: #6b8cae;">
+                <i class="fas fa-blog"></i>
+            </div>
+            <div class="project-content">
+                <h3 class="project-title">Сайт Ксении</h3>
+                <a href="KidsSite/Junior 1 Ксения вишняова (2)/index (2).html" class="project-link" target="_blank">Посетить сайт</a>
+            </div>
+        </div>
+
+        <!-- Проект 3 -->
+        <div class="project-card">
+            <div class="project-image" style="background-color: #ff7e5f;">
+                <i class="fas fa-tasks"></i>
+            </div>
+            <div class="project-content">
+                <h3 class="project-title">Сайт Владислава</h3>
+                <a href="KidsSite/archive/Index.html" class="project-link" target="_blank">Посетить сайт</a>
+            </div>
+        </div>
+
+        <!-- Проект 4 -->
+        <div class="project-card">
+            <div class="project-image" style="background-color: #6b8cae;">
+                <i class="fas fa-chart-line"></i>
+            </div>
+            <div class="project-content">
+                <h3 class="project-title">Сайт Максима</h3>
+                <a href="KidsSite/ив макс джуниер1/index.html" class="project-link" target="_blank">Посетить сайт</a>
+            </div>
+        </div>
+
+        <!-- Проект 5 -->
+        <div class="project-card">
+            <div class="project-image" style="background-color: #4a6fa5;">
+                <i class="fas fa-graduation-cap"></i>
+            </div>
+            <div class="project-content">
+                <h3 class="project-title">Сайт Ивана</h3>
+                <a href="KidsSite/ваня комличенко джуниор/index.html" class="project-link" target="_blank">Посетить сайт</a>
+            </div>
+        </div>
+
+        <!-- Проект 6 -->
+        <div class="project-card">
+            <div class="project-image" style="background-color: #ff7e5f;">
+                <i class="fas fa-music"></i>
+            </div>
+            <div class="project-content">
+                <h3 class="project-title">Сайт Никиты</h3>
+                <a href="KidsSite/лунтик Никита/index.html" class="project-link" target="_blank">Посетить сайт</a>
+            </div>
+        </div>
+
+        <!-- Проект 7 -->
+        <div class="project-card">
+            <div class="project-image" style="background-color: #ff8c5f;">
+                <i class="fas fa-shopping-cart"></i>
+            </div>
+            <div class="project-content">
+                <h3 class="project-title">Сайт Елизаветы</h3>
+                <a href="KidsSite/Junior1 Лиза web/index (2).html" class="project-link" target="_blank">Посетить сайт</a>
+            </div>
+        </div>
+
+        <!-- Проект 8 -->
+        <div class="project-card">
+            <div class="project-image" style="background-color: #0d9eff;">
+                <i class="fas fa-blog"></i>
+            </div>
+            <div class="project-content">
+                <h3 class="project-title">Сайт Матвея</h3>
+                <a href="KidsSite/junior1 СЕРГЕЕВ 1 (2)/index (2).html" class="project-link" target="_blank">Посетить сайт</a>
+            </div>
+        </div>
+
+        <!-- Проект 9 -->
+        <div class="project-card">
+            <div class="project-image" style="background-color: #3d67c2;">
+                <i class="fas fa-tasks"></i>
+            </div>
+            <div class="project-content">
+                <h3 class="project-title">Сайт Тимура</h3>
+                <a href="KidsSite/Junior1 Тимур Web (2)/index.html" class="project-link" target="_blank">Посетить сайт</a>
+            </div>
+        </div>
+
+        <!-- Проект 10 -->
+        <div class="project-card">
+            <div class="project-image" style="background-color: #5f9fff;">
+                <i class="fas fa-chart-line"></i>
+            </div>
+            <div class="project-content">
+                <h3 class="project-title">Сайт Анны</h3>
+                <a href="KidsSite/junior 1 аня черная/index.html" class="project-link" target="_blank">Посетить сайт</a>
+            </div>
+        </div>
+
+        <!-- Проект 11 -->
+        <div class="project-card">
+            <div class="project-image" style="background-color: #f0af9f;">
+                <i class="fas fa-graduation-cap"></i>
+            </div>
+            <div class="project-content">
+                <h3 class="project-title">Сайт Михаила</h3>
+                <a href="KidsSite/Junior 1 миша Черный/index.html" class="project-link" target="_blank">Посетить сайт</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2023 Мои проекты. Все права защищены.</p>
+        <div class="social-links">
+            <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+    </footer>
+</body>
+
+</html>

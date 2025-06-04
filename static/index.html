@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Сервер работает!</title>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            background: #f0f0f0;
+        }
+
+        .status {
+            color: #4CAF50;
+            font-size: 3em;
+            margin-top: 20%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="status">🚀 Сервер работает!</div>
+    <p>API Gateway доступен по <a href="/swagger">/swagger</a></p>
+    <nav><a href="test.html">Test</a></nav>
+    
+
+    <script>
+        fetch('/api/health')
+            .then(response => {
+                const statusEl = document.createElement('div');
+                statusEl.textContent = 'Auth-Service Status: ✅ Online';
+                document.body.appendChild(statusEl);
+            })
+            .catch(() => {
+                const statusEl = document.createElement('div');
+                statusEl.textContent = 'Auth-Service Status: ❌ Offline';
+                document.body.appendChild(statusEl);
+            });
+    </script>
+    <script>
+        fetch('/health')
+            .then(response => {
+                const statusEl = document.createElement('div');
+                statusEl.textContent = 'API-Gateway Status: ✅ Online';
+                document.body.appendChild(statusEl);
+            })
+            .catch(() => {
+                const statusEl = document.createElement('div');
+                statusEl.textContent = 'API-Gateway Status: ❌ Offline';
+                document.body.appendChild(statusEl);
+            });
+    </script>
+</body>
+
+</html>

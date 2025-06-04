@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+main {
+    margin: 20px;
+}
+
+#property-list {
+    margin-bottom: 20px;
+}
+
+#properties {
+    display: flex;
+    flex-direction: column;
+}
+
+.property-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #fff;
+}
+
+#add-property {
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+}
+
+input {
+    margin: 5px;
+    padding: 10px;
+    width: 200px;
+}
+
+button {
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #35424a;
+    border: none;
+}

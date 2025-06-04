@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Деревенские чаи</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Деревенские чаи</h1>
+        <nav>
+            <ul>
+                <li><a href="#tea">Чаи</a></li>
+                <li><a href="#about">О нас</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <a name="tea"></a>
+        <section id="tea">
+            <h2>Наши чаи</h2>
+            <div class="tea-item" onclick="showDetails('черный чай')">
+                <h3>Черный чай</h3>
+                <p>Ароматный черный чай с лёгкими нотками карамели.</p>
+            </div>
+            <div class="tea-item" onclick="showDetails('зеленый чай')">
+                <h3>Зеленый чай</h3>
+                <p>Успокаивающий зеленый чай с травяными добавками.</p>
+            </div>
+            <div class="tea-item" onclick="showDetails('травяной чай')">
+                <h3>Травяной чай</h3>
+                <p>Натуральный травяной чай с памятными ароматами.</p>
+            </div>
+        </section>
+
+        <section id="details" class="hidden">
+            <h2>Подробности о чае</h2>
+            <p id="tea-description"></p>
+            <button onclick="hideDetails()">Закрыть</button>
+        </section>
+
+        <section id="about">
+            <h2>О нас</h2>
+            <p>Мы предлагаем лучшие деревенские чаи, собранные вручную на экологически чистых плантациях.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Контакты</h2>
+            <p>Email: info@derevenskie-chai.ru</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Деревенские чаи. Все права защищены.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

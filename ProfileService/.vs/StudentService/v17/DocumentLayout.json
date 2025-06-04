@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\zikov\\source\\repos\\KiberOne\\StudentService\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0FA6F86F-030F-4222-A3C2-5E2882C61C9B}|StudentService\\ProfileService.csproj|c:\\users\\zikov\\source\\repos\\kiberone\\studentservice\\studentservice\\models\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FA6F86F-030F-4222-A3C2-5E2882C61C9B}|StudentService\\ProfileService.csproj|solutionrelative:studentservice\\models\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FA6F86F-030F-4222-A3C2-5E2882C61C9B}|StudentService\\ProfileService.csproj|c:\\users\\zikov\\source\\repos\\kiberone\\studentservice\\studentservice\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FA6F86F-030F-4222-A3C2-5E2882C61C9B}|StudentService\\ProfileService.csproj|solutionrelative:studentservice\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FA6F86F-030F-4222-A3C2-5E2882C61C9B}|StudentService\\ProfileService.csproj|c:\\users\\zikov\\source\\repos\\kiberone\\studentservice\\studentservice\\data\\profiledbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FA6F86F-030F-4222-A3C2-5E2882C61C9B}|StudentService\\ProfileService.csproj|solutionrelative:studentservice\\data\\profiledbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FA6F86F-030F-4222-A3C2-5E2882C61C9B}|StudentService\\StudentService.csproj|c:\\users\\zikov\\source\\repos\\kiberone\\studentservice\\studentservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0FA6F86F-030F-4222-A3C2-5E2882C61C9B}|StudentService\\StudentService.csproj|solutionrelative:studentservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FA6F86F-030F-4222-A3C2-5E2882C61C9B}|StudentService\\StudentService.csproj|c:\\users\\zikov\\source\\repos\\kiberone\\studentservice\\studentservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FA6F86F-030F-4222-A3C2-5E2882C61C9B}|StudentService\\StudentService.csproj|solutionrelative:studentservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FA6F86F-030F-4222-A3C2-5E2882C61C9B}|StudentService\\ProfileService.csproj|c:\\users\\zikov\\source\\repos\\kiberone\\studentservice\\studentservice\\profileservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0FA6F86F-030F-4222-A3C2-5E2882C61C9B}|StudentService\\ProfileService.csproj|solutionrelative:studentservice\\profileservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Profile.cs",
+              "DocumentMoniker": "C:\\Users\\zikov\\source\\repos\\KiberOne\\StudentService\\StudentService\\Models\\Profile.cs",
+              "RelativeDocumentMoniker": "StudentService\\Models\\Profile.cs",
+              "ToolTip": "C:\\Users\\zikov\\source\\repos\\KiberOne\\StudentService\\StudentService\\Models\\Profile.cs",
+              "RelativeToolTip": "StudentService\\Models\\Profile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T20:14:38.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProfileDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\zikov\\source\\repos\\KiberOne\\StudentService\\StudentService\\Data\\ProfileDbContext.cs",
+              "RelativeDocumentMoniker": "StudentService\\Data\\ProfileDbContext.cs",
+              "ToolTip": "C:\\Users\\zikov\\source\\repos\\KiberOne\\StudentService\\StudentService\\Data\\ProfileDbContext.cs",
+              "RelativeToolTip": "StudentService\\Data\\ProfileDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T19:57:16.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\zikov\\source\\repos\\KiberOne\\StudentService\\StudentService\\Program.cs",
+              "RelativeDocumentMoniker": "StudentService\\Program.cs",
+              "ToolTip": "C:\\Users\\zikov\\source\\repos\\KiberOne\\StudentService\\StudentService\\Program.cs",
+              "RelativeToolTip": "StudentService\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T15:10:11.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\zikov\\source\\repos\\KiberOne\\StudentService\\StudentService\\appsettings.json",
+              "RelativeDocumentMoniker": "StudentService\\appsettings.json",
+              "ToolTip": "C:\\Users\\zikov\\source\\repos\\KiberOne\\StudentService\\StudentService\\appsettings.json",
+              "RelativeToolTip": "StudentService\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-28T15:22:26.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProfileController.cs",
+              "DocumentMoniker": "C:\\Users\\zikov\\source\\repos\\KiberOne\\StudentService\\StudentService\\Controllers\\ProfileController.cs",
+              "RelativeDocumentMoniker": "StudentService\\Controllers\\ProfileController.cs",
+              "ToolTip": "C:\\Users\\zikov\\source\\repos\\KiberOne\\StudentService\\StudentService\\Controllers\\ProfileController.cs",
+              "RelativeToolTip": "StudentService\\Controllers\\ProfileController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T20:17:39.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StudentService.csproj",
+              "DocumentMoniker": "C:\\Users\\zikov\\source\\repos\\KiberOne\\StudentService\\StudentService\\ProfileService.csproj",
+              "RelativeDocumentMoniker": "StudentService\\ProfileService.csproj",
+              "ToolTip": "C:\\Users\\zikov\\source\\repos\\KiberOne\\StudentService\\StudentService\\ProfileService.csproj",
+              "RelativeToolTip": "StudentService\\ProfileService.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-28T19:57:02.652Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

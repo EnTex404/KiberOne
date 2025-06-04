@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\zikov\\source\\repos\\StudentService\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0FA6F86F-030F-4222-A3C2-5E2882C61C9B}|StudentService\\StudentService.csproj|c:\\users\\zikov\\source\\repos\\studentservice\\studentservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FA6F86F-030F-4222-A3C2-5E2882C61C9B}|StudentService\\StudentService.csproj|solutionrelative:studentservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FA6F86F-030F-4222-A3C2-5E2882C61C9B}|StudentService\\StudentService.csproj|c:\\users\\zikov\\source\\repos\\studentservice\\studentservice\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FA6F86F-030F-4222-A3C2-5E2882C61C9B}|StudentService\\StudentService.csproj|solutionrelative:studentservice\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FA6F86F-030F-4222-A3C2-5E2882C61C9B}|StudentService\\StudentService.csproj|c:\\users\\zikov\\source\\repos\\studentservice\\studentservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0FA6F86F-030F-4222-A3C2-5E2882C61C9B}|StudentService\\StudentService.csproj|solutionrelative:studentservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FA6F86F-030F-4222-A3C2-5E2882C61C9B}|StudentService\\StudentService.csproj|c:\\users\\zikov\\source\\repos\\studentservice\\studentservice\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FA6F86F-030F-4222-A3C2-5E2882C61C9B}|StudentService\\StudentService.csproj|solutionrelative:studentservice\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FA6F86F-030F-4222-A3C2-5E2882C61C9B}|StudentService\\StudentService.csproj|c:\\users\\zikov\\source\\repos\\studentservice\\studentservice\\data\\studenstdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FA6F86F-030F-4222-A3C2-5E2882C61C9B}|StudentService\\StudentService.csproj|solutionrelative:studentservice\\data\\studenstdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FA6F86F-030F-4222-A3C2-5E2882C61C9B}|StudentService\\StudentService.csproj|c:\\users\\zikov\\source\\repos\\studentservice\\studentservice\\studentservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0FA6F86F-030F-4222-A3C2-5E2882C61C9B}|StudentService\\StudentService.csproj|solutionrelative:studentservice\\studentservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\zikov\\source\\repos\\StudentService\\StudentService\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "StudentService\\Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\zikov\\source\\repos\\StudentService\\StudentService\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "StudentService\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAcAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T20:17:39.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\zikov\\source\\repos\\StudentService\\StudentService\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "StudentService\\Models\\Student.cs",
+              "ToolTip": "C:\\Users\\zikov\\source\\repos\\StudentService\\StudentService\\Models\\Student.cs",
+              "RelativeToolTip": "StudentService\\Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T20:14:38.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StudenstDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\zikov\\source\\repos\\StudentService\\StudentService\\Data\\StudenstDbContext.cs",
+              "RelativeDocumentMoniker": "StudentService\\Data\\StudenstDbContext.cs",
+              "ToolTip": "C:\\Users\\zikov\\source\\repos\\StudentService\\StudentService\\Data\\StudenstDbContext.cs",
+              "RelativeToolTip": "StudentService\\Data\\StudenstDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T19:57:16.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StudentService",
+              "DocumentMoniker": "C:\\Users\\zikov\\source\\repos\\StudentService\\StudentService\\StudentService.csproj",
+              "RelativeDocumentMoniker": "StudentService\\StudentService.csproj",
+              "ToolTip": "C:\\Users\\zikov\\source\\repos\\StudentService\\StudentService\\StudentService.csproj",
+              "RelativeToolTip": "StudentService\\StudentService.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-28T19:57:02.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\zikov\\source\\repos\\StudentService\\StudentService\\appsettings.json",
+              "RelativeDocumentMoniker": "StudentService\\appsettings.json",
+              "ToolTip": "C:\\Users\\zikov\\source\\repos\\StudentService\\StudentService\\appsettings.json",
+              "RelativeToolTip": "StudentService\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-28T15:22:26.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\zikov\\source\\repos\\StudentService\\StudentService\\Program.cs",
+              "RelativeDocumentMoniker": "StudentService\\Program.cs",
+              "ToolTip": "C:\\Users\\zikov\\source\\repos\\StudentService\\StudentService\\Program.cs",
+              "RelativeToolTip": "StudentService\\Program.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T15:10:11.294Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
